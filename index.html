@@ -8,6 +8,11 @@
 <!-- Favicon: the header note in the accent colour (#D0BCFF); on a light system theme it is #6750A4 so it stays readable on a white tab.
      viewBox has padding (the note is ≈83% of the height): edge to edge it looked larger than other sites' icons -->
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='4 0 128 128'%3E%3Cstyle%3Epath%7Bfill:%23D0BCFF%7D%40media (prefers-color-scheme:light)%7Bpath%7Bfill:%236750A4%7D%7D%3C/style%3E%3Cpath d='M53.3333 64C38.6053 64 26.6667 75.9387 26.6667 90.6667C26.6667 105.395 38.6053 117.333 53.3333 117.333C68.0613 117.333 80 105.395 80 90.6667C80 75.9387 68.0613 64 53.3333 64Z M104 32H80V10.6667H104C106.947 10.6667 109.333 13.0533 109.333 16V26.6667C109.333 29.6133 106.947 32 104 32Z M80 10.6667H74.6667C68.776 10.6667 64 15.4427 64 21.3333V90.6667H80V10.6667Z'/%3E%3C/svg%3E">
+<!-- Installable web app: the manifest and the PNG icons live next to index.html (manifest.webmanifest, icons/).
+     Chrome needs real PNG icons for the installed app; the SVG favicon above is not used for it -->
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="theme-color" content="#141218">
 <style>
   /* Onest (variable, 100–900), OFL-1.1, embedded: latin + cyrillic */
   @font-face {
